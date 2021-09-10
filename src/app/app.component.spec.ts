@@ -22,7 +22,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('angular-leaflet-example');
   });
 
-   xit('should render title', () => {
+   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
